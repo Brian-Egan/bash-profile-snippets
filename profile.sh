@@ -28,3 +28,13 @@
     gzip -cd $@ | dd ibs=1024 count=2 | column -s, -t
   }
 
+ alias reload_bash="source ~/.bash_profile"
+ alias reloadBash="source ~/.bash_profile"
+
+
+## If installed Sublime Text
+ alias subl="~/Applications/Sublime\ Text.app/contents/SharedSupport/bin/subl"
+ alias sublime="~/Applications/Sublime\ Text.app/contents/SharedSupport/bin/subl"
+ 
+ 
+ 
